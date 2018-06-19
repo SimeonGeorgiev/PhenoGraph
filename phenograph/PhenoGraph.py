@@ -6,7 +6,6 @@ class PhenoGraph(object):
 
     This is a wrapper over the phenograph.cluster function.
     It supports the scikit-learn API- fit, predict and fit_predict methods.
-    This makes it possible to use bootstrapping to assess cluster significance.
     
     """
     def __init__(self, k=50, directed=False, prune=False, min_cluster_size=100, jaccard=True,
