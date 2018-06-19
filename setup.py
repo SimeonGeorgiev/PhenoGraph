@@ -17,7 +17,7 @@ setup(
     },
     include_package_data=True,
     zip_safe=False,
-    url="https://github.com/jacoblevine/PhenoGraph",
+    url="https://github.com/SimeonGeorgiev/PhenoGraph",
     license="LICENSE",
     long_description=open("README.md").read(),
     install_requires=open("requirements.txt").read()
